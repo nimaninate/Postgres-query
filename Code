@@ -3,8 +3,8 @@ nima=# COPY public.jsontest (to_jsonb) FROM stdin; #Copy the data into jsonb col
 << {"a": 1, "b": 1, "c": 2, "d": "Just something here"}
 ...
 <<.\
-nima=# SELECT count(*) FROM jsontest WHERE to_jsonb->>'b' = '0' and to_jsonb->>'c' = '0'; #Query to find the number of rows with
-b and c field equal to zero.
+nima=# SELECT count(*) FROM jsontest WHERE to_jsonb->>'b' = '0' and to_jsonb->>'c' = '0'; #Query to find the 
+number of rows with b and c field equal to zero.
  count 
 -------
   6666
