@@ -1,2 +1,2 @@
 # Postgres-query
-Creating a table and retrieve some data.
+Creating a table in postgreSQL db and retrieve some data.
