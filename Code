@@ -1,5 +1,5 @@
 nima=# CREATE TABLE public.jsontest (to_jsonb jsonb); #Creating table.
-nima=# COPY public.jsontest (to_jsonb) FROM stdin; #Cope the data into jsonb column.
+nima=# COPY public.jsontest (to_jsonb) FROM stdin; #Copy the data into jsonb column.
 << {"a": 1, "b": 1, "c": 2, "d": "Just something here"}
 ...
 <<.\
